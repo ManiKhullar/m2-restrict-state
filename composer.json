@@ -1,0 +1,21 @@
+{
+    "name": "bluethink/magento-2-restrict-state",
+    "description": "Bluethink Magento 2 restrict state module",
+    "type": "magento2-module",
+    "minimum-stability": "dev",
+    "version": "1.0.0",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Bluethink"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Bluethink\\RestrictState\\": ""
+        }
+    }
+}
