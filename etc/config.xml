@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <general>
+            <state_restriction>
+                <country_state_filter>American Samoa,Armed Forces Africa,Armed Forces Americas,Armed Forces Canada,Armed Forces Europe,Armed Forces Middle East,Armed Forces Pacific,Federated States Of Micronesia,Guam,Marshall Islands,Northern Mariana Islands,Palau,Virgin Islands</country_state_filter>
+            </state_restriction>
+        </general>
+    </default>
+</config>

@@ -1,0 +1,14 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+  <system>
+    <section id="general">
+        <group id="state_restriction" translate="label" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+              <label>State Restrictions</label>
+              <field id="country_state_filter" translate="label comment" type="multiselect" sortOrder="70" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Disallow States on Checkout Page and Address Book</label> 
+                    <source_model>Bluethink\RestrictState\Model\Config\Source\Regions</source_model>
+              </field>
+        </group>
+    </section>
+  </system>
+</config>
